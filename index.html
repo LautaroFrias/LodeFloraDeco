@@ -1,0 +1,151 @@
+<!DOCTYPE html>
+<html lang="es-la">
+
+<head>
+    <meta name="description" content="Lo de Flora Deco, Importamos objetos de decoración y bazar. Vajilla, cerámica, frascos, velas de soja, entre otros. Hacemos envíos">
+    <meta name="keywords" content="Lo de Flora, decoración, bazar, vajilla, velas de soja, hornitos, saphirus, bowl.">
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="icon" href="imagenes/icono/favicon.ico">
+    <link rel="stylesheet" href="css/bootstrap.min.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css" />
+    <link rel="stylesheet" href="css/estilo.css">
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <title>Inicio - LO DE FLORA DECO</title>
+    <!-- Fuentes -->
+    <link href="https://fonts.googleapis.com/css2?family=Lobster&family=Montserrat:wght@200&family=Noto+Serif+JP:wght@200&display=swap" rel="stylesheet">
+</head>
+
+<body>
+    <!-- Header -->
+    <header>
+        <p class="cuotas"> 3 y 6 cuotas sin interés con cualquier tarjeta. Envíos gratis superando los $4.000 en La Plata y alrededores <img src="/imagenes/icono/camion.png" alt="imagen_camion" width="2%"></p>
+        <!-- NavBar Bootstrap aplicando BEM -->
+        <nav class="navbar navbar-expand-lg bg-transparent navbar-light">
+            <a href="index.html" class="navbar-brand mb-0 h1">
+                <img class="d-inline-block align-top" style="width: 10rem;" src="imagenes/imagen_index.png" />
+            </a>
+            <div class="container-fluid">
+                <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarText" aria-controls="navbarText" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+              </button>
+                <div class="collapse navbar-collapse" id="navbarText">
+                    <ul class="navbar-nav mx-auto">
+                        <li class="nav--item">
+                            <a class="nav_link--uppercase" href="index.html">Inicio</a>
+                        </li>
+                        <li class="nav--item">
+                            <a class="nav_link--uppercase" href="paginas/nosotros.html">Nosotros</a>
+                        </li>
+                        <li class="nav--item">
+                            <a class="nav_link--uppercase" href="paginas/compra_online.html">Compra Online</a>
+                        </li>
+                        <li class="nav--item">
+                            <a class="nav_link--uppercase" href="paginas/contacto.html">Contacto</a>
+                        </li>
+                        <li class="nav--item">
+                            <a class="nav_link--uppercase" href="paginas/cuenta.html">Cuenta</a>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </nav>
+    </header>
+
+
+    <!-- Carousel -->
+
+    <div id="carouselExampleIndicators" class="carousel slide" data-bs-ride="carousel">
+        <div class="carousel-indicators">
+            <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+            <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="1" aria-label="Slide 2"></button>
+            <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="2" aria-label="Slide 3"></button>
+        </div>
+        <div class="carousel-inner">
+            <div class="carousel-item active">
+                <img src="imagenes/slide1.jpg" class="d-block w-100" alt="imagen_vajilla">
+            </div>
+            <div class="carousel-item">
+                <img src="imagenes/slide2.jpg" class="d-block w-100" alt="imagen_especieros">
+            </div>
+            <div class="carousel-item">
+                <img src="imagenes/slide3.jpg" class="d-block w-100" alt="imagen_platos">
+            </div>
+        </div>
+        <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide="prev">
+          <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+          <span class="visually-hidden">Anterior</span>
+        </button>
+        <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide="next">
+          <span class="carousel-control-next-icon" aria-hidden="true"></span>
+          <span class="visually-hidden">Siguiente</span>
+        </button>
+    </div>
+
+    <!-- Columnas/Bootstrap -->
+    <main>
+        <div class="row p-2 m-1">
+            <div class="col-12 bg-secondary mt-5">
+            </div>
+            <div class="row">
+                <div class="col-12 p-3 animate__animated animate__slideInDown">
+                    <h1><img src="imagenes/icono/carrito.png" alt="imagen_carrito" width="8%"> Información de tu compra</h1>
+                    <a href="paginas/compra online.html" class="btn btn-default btn-secondary active" role="button"><img src="imagenes/icono/proximo.png" width="5%" alt="img__click"> Conocé más</a>
+                </div>
+                <div class="col-12 p-3 animate__animated animate__slideInLeft">
+                    <h2><img src="imagenes/icono/efectivo.png" alt="imagen_carrito" width="8%"> 25% OFF en efectivo</h2>
+                    <a href="paginas/cuenta.html " class="btn btn-default btn-secondary active" role="button"><img src="imagenes/icono/proximo.png" width="5%" alt="img__click"> Ver ofertas por medios de pago</a>
+                </div>
+                <div class="col-12 p-3 animate__animated animate__slideInRight">
+                    <h2 class="wow animate__fadeInUp"><img src="imagenes/icono/whatsapp.png" alt="imagen_carrito" width="8%"> Escribinos al whatsapp</h2>
+                    <a href="paginas/contacto.html " class="btn btn-default btn-secondary active" role="button"><img src="imagenes/icono/proximo.png" width="5%" alt="img__click"> Respondemos todas tus consultas de manera personalizada</a>
+                </div>
+            </div>
+        </div>
+
+        <!-- Galería -->
+        <section class="contenedorPadre ">
+            <img src="imagenes/1.png " alt="img__1">
+            <img src="imagenes/2.png " alt="img__2">
+            <img src="imagenes/3.png " alt="img__3">
+            <img src="imagenes/4.png " alt="img__4">
+            <img src="imagenes/5.png " alt="img__5">
+            <img src="imagenes/6.png " alt="img__6">
+        </section>
+
+
+        <!-- Columnas Info y Redes -->
+        <div class="row p-2 m-1" style="background-color: #d8d4d4;">
+            <div class="col-12 bg-secondary mt-5">
+            </div>
+            <div class="row">
+                <div class="col-4 p-3">
+                    <h5>Seguinos en nuestras redes</h5>
+                    <img src="imagenes/icono/instagram.png" alt="imagen_instagram" width="13%">
+                    <img src="imagenes/icono/facebook.png" alt="imagen_facebook" width="13%">
+                </div>
+                <div class="col-4 p-3">
+                    <h5>Contactanos</h5>
+                    <article><img src="imagenes/icono/llamada.png" alt="imagen_llamada" width="13%"> 2215367890</article>
+                    <h6><img src="imagenes/icono/a.png" alt="imagen_mail" width="13%"> lodefloradeco</h6>
+                </div>
+                <div class="col-4 p-3">
+                    <h5>Estamos en La Plata - Zona Centro</h5>
+                    <img src="imagenes/icono/mapa.png" alt="imagen_mapa" width="13%">
+                </div>
+            </div>
+        </div>
+    </main>
+
+    <!-- Footer -->
+    <footer>
+        <p class="sitio">Sitio desarrollado por Lautaro Frías</p>
+    </footer>
+
+    <script src="js/bootstrap.js "></script>
+    <script async type="text/javascript" src="https://userlike-cdn-widgets.s3-eu-west-1.amazonaws.com/0643cb96f3734babbb4d2432a2deccad062e81ade0074517a417ad51a406d70a.js"></script>
+</body>
+
+
+</html>

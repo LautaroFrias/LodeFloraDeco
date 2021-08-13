@@ -1,0 +1,48 @@
+$font-weight: bolder;
+$ancho: 80px;
+@mixin formulario ($padding) {
+    padding: $padding;
+}
+
+form {
+    @include formulario (($ancho/2)+40);
+    padding: 3.75em;
+    max-width: 25em;
+    margin: 3% auto;
+    color: #0e0e0e;
+    font-family: 'Noto Serif JP';
+    font-weight: bolder;
+}
+
+form input,
+form textarea {
+    @include formulario (($ancho/2)-30);
+    margin-bottom: 2rem;
+    font-family: 'Montserrat', sans-serif;
+    width: 100%;
+    padding: 0.62em;
+    -webkit-box-sizing: border-box;
+    box-sizing: border-box;
+    border: none;
+    color: #0e0e0e;
+    font-size: 1em;
+    resize: horizontal;
+    font-weight: bolder;
+}
+
+form button {
+    @include formulario (10px 45px);
+    display: block;
+    padding: 0.62em 2.81em;
+    border: 0;
+    font-size: 1em;
+    color: #0e0e0e;
+}
+
+textarea {
+    resize: none;
+}
+
+.cuenta--formulario {
+    font-family: 'Montserrat', sans-serif;
+}

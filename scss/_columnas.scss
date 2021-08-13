@@ -1,0 +1,29 @@
+.row,
+a {
+    font-family: 'Montserrat', sans-serif;
+    font-size: large;
+    font-weight: bold;
+    text-align: center;
+    color: #0e0e0e;
+    &:hover {
+        opacity: 4;
+        color: #f5f5f5;
+        font-weight: bolder;
+        background-color: #0e0e0e;
+    }
+}
+
+.compra--online {
+    padding: 2%;
+    font-family: 'Montserrat', sans-serif;
+}
+
+.compra--online__texto {
+    margin: 5%;
+    margin-top: 0%;
+    margin-bottom: 5%;
+    padding-left: 10%;
+    color: #0e0e0e;
+    justify-content: left;
+    font-family: 'Montserrat', sans-serif;
+}

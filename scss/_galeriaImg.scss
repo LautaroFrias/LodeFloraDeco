@@ -1,0 +1,34 @@
+.contenedorPadre {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-auto-rows: 32.5rem;
+    padding: 0.8rem;
+    grid-gap: 0.8rem;
+    margin-left: 3rem;
+    img {
+        width: 90%;
+        height: 90%;
+        object-fit: cover;
+        opacity: .4;
+        border: 2px double #f3f1f1;
+        &:hover {
+            opacity: 1;
+            transform: scale(1.04);
+            transition: transform 0.3s ease-in-out;
+        }
+    }
+}
+
+.nosotros {
+    margin: 5%;
+    color: #0e0e0e;
+    justify-content: left;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 1.125rem;
+}
+
+.galeria_contacto {
+    margin: 5%;
+    font-family: 'Montserrat', sans-serif;
+    text-align: center;
+}
