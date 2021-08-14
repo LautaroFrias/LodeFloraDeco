@@ -20,20 +20,20 @@
 
 /* media queries */
 
-@media screen and (max-width: 992px) {
+@media screen and (max-width: 575.98px) {
     .contenedorPadre {
-        grid-template-columns: repeat(3, 1fr);
+        grid-template-columns: repeat(1, 1fr);
     }
 }
 
-@media screen and (max-width: 768px) {
+@media screen and (max-width: 767.98px) {
     .contenedorPadre {
         grid-template-columns: repeat(2, 1fr);
     }
 }
 
-@media screen and (max-width: 576px) {
+@media screen and (max-width: 991.98px) {
     .contenedorPadre {
-        grid-template-columns: repeat(1, 1fr);
+        grid-template-columns: repeat(3, 1fr);
     }
 }
